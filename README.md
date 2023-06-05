@@ -37,11 +37,10 @@ Update the spring.datasource.url, spring.datasource.username, and spring.datasou
 
 
 4. Build and run the application:
-
   ```shell
-  ./mvnw spring-boot:run
+ ./mvnw spring-boot:run
   
-### API Endpoints
+API Endpoints
 The blog application API provides the following endpoints:
 
 GET /api/posts: Retrieves all blog posts.
@@ -49,3 +48,8 @@ GET /api/posts/{id}: Retrieves a specific blog post by ID.
 POST /api/posts: Creates a new blog post.
 PUT /api/posts/{id}: Updates an existing blog post.
 DELETE /api/posts/{id}: Deletes a blog post.
+
+API Calls
+![image](https://github.com/NehaPatil104/Blog-App-APIs-using-Spring-Boot/assets/71131714/7856d99a-7e61-4070-bdc7-6375c17daa0f)
+
+
